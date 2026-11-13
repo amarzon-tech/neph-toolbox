@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0e5c63">
+  <meta name="description" content="Draft nephrology calculator collection. Offline, no login, no data collection. Not for clinical use until reviewed by Dr D.">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Nephrology Toolbox (Draft)</title>
+  <link rel="manifest" href="./manifest.json">
+  <link rel="icon" type="image/png" href="./icons/favicon.png">
+  <link rel="apple-touch-icon" href="./icons/icon-192.png">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="draft-banner" id="draft-banner" role="status">Draft – not for clinical use until reviewed by Dr D</div>
+  <header class="app-header">
+    <div class="header-inner">
+      <a class="brand" href="#/" aria-label="Nephrology Toolbox home">
+        <img class="brand-mark" src="./icons/icon.svg" alt="" width="32" height="32">
+        <span class="brand-text">
+          <strong id="app-name">Nephrology Toolbox</strong>
+          <small id="app-sub">Draft · Wellness Tech LLC</small>
+        </span>
+      </a>
+      <div class="search-wrap">
+        <svg class="search-icon" viewBox="0 0 20 20" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2"><circle cx="8.5" cy="8.5" r="5.5"/><path d="M13 13l4 4"/></svg>
+        <input id="search" type="search" placeholder="Search calculators" aria-label="Search calculators" autocomplete="off">
+      </div>
+      <div class="header-actions">
+        <button type="button" class="back-btn" id="back-btn">← All calculators</button>
+        <div class="unit-toggle" role="group" aria-label="Unit system">
+          <button type="button" data-units="us" aria-pressed="true">US</button>
+          <button type="button" data-units="si" aria-pressed="false">SI</button>
+        </div>
+        <a class="about-link" href="#/about">About</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="home-view">
+      <nav class="section-nav" id="section-nav" aria-label="Calculator sections"></nav>
+      <div id="home-sections"></div>
+    </div>
+    <div class="calc-view" id="calc-view"></div>
+    <div class="about-view">
+      <div class="panel">
+        <h1>About this draft</h1>
+        <p>Nephrology Toolbox is a clinician-facing collection of formulas used in nephrology. It is a <strong>draft</strong> for review by Dr Amar Damodar (Dr D). It is <strong>not for clinical use</strong> until he has signed off on every formula.</p>
+        <h2>How it is built</h2>
+        <ul>
+          <li>Static web app that works offline (installable PWA). After the first load, it does not need a network.</li>
+          <li>No login, no ads, no analytics, no data collection. Inputs stay in memory on this device and are not stored.</li>
+          <li>Every formula is taken from its original or guideline source. The equation, citation (with DOI / PubMed), and limitations are in each calculator’s info panel, and again in <code>CONTENT_REVIEW.md</code> for sign-off.</li>
+          <li>A <code>DRAFT=true</code> flag in the code drives the banner at the top of every screen.</li>
+        </ul>
+        <h2>Privacy</h2>
+        <p>This app makes no network calls for calculations and does not send, save, or share patient data. Citation links (DOI, PubMed) open only if you choose to follow them.</p>
+        <h2>Support</h2>
+        <p>Wellness Tech LLC. Privacy and support: <a id="support-email" href="mailto:amardamodar@gmail.com">amardamodar@gmail.com</a>. Version <span id="version">0.1.0-draft</span>.</p>
+        <p><a href="#/">Back to calculators</a></p>
+      </div>
+    </div>
+  </main>
+  <footer class="app-foot">
+    Draft – not for clinical use until reviewed by Dr D. Wellness Tech LLC. No data collection.
+  </footer>
+
+  <script src="./js/config.js"></script>
+  <script src="./js/formulas.js"></script>
+  <script src="./js/calculators.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>
