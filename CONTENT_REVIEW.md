@@ -615,7 +615,7 @@ Female: V = −2.097 + 0.1069×height_cm + 0.2466×weight_kg
 
 Watson PE, Watson ID, Batt RD. Total body water volumes for adult males and females estimated from simple anthropometric measurements. Am J Clin Nutr. 1980;33:27-39.
 - DOI: https://doi.org/10.1093/ajcn/33.1.27
-- PubMed: https://pubmed.ncbi.nlm.nih.gov/7387105/
+- PubMed: https://pubmed.ncbi.nlm.nih.gov/6986753/
 
 **Limitations**
 
@@ -823,6 +823,8 @@ These are documented in the app and in the formula comments. Please pay particul
 16. **Cockcroft–Gault weight.** The **0.4** adjusted-body-weight factor is conventional (Winter et al. discuss weight selection) and is not in the 1976 paper. Devine IBW is flagged when height is under 5 feet.
 
 17. **Winter’s formula citation.** Albert, Dell, Winters, *Ann Intern Med* 1967 (the paper usually cited as Winter’s formula). PMID 6016545 as commonly indexed.
+
+18. **Watson male age coefficient.** This app uses **0.09516**, as in academic citations of Watson et al., *Am J Clin Nutr* 1980, and in QxMD. A widely circulated variant (including some Merck Manual calculator pages) uses **0.09156**. The difference at age 60 is about 0.22 L. The female equation has no age term, as published. Watson 1980 PMID is **6986753** (not 7387105).
 
 Please also confirm that you are comfortable with KDIGO G and A category labels being shown as interpretive chips (staging aids, not diagnoses).
 
