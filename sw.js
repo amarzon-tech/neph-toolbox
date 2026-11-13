@@ -1,5 +1,5 @@
 /* Offline cache for Nephrology Toolbox. No network after first load. */
-const CACHE = "neph-toolbox-v1";
+const CACHE = "neph-toolbox-v2-ui";
 const ASSETS = [
   "./",
   "./index.html",
