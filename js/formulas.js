@@ -819,7 +819,7 @@
    *   CVVHDF:    Qd + Qr_pre + Qr_post + Qnet, × DF if Qpre > 0
    * Dose = (Qeff × DF) / weight_kg
    *
-   * KDIGO AKI 2012 (Kidney Int Suppl. 2012;2:1-138), recommendation 5.8.3:
+   * KDIGO AKI 2012 (Kidney Int Suppl. 2012;2:1-138), recommendation 5.8.4:
    *   "We recommend delivering an effluent volume of 20–25 mL/kg/h for CRRT
    *    in AKI (1A). This will usually require a higher prescription of effluent
    *    volume." Based on the ATN (Palevsky et al., NEJM 2008) and RENAL

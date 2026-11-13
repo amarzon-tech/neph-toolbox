@@ -648,7 +648,7 @@ KDIGO AKI 2012: deliver 20–25 mL/kg/h (usually requires a higher prescription)
 
 **Citation**
 
-KDIGO Clinical Practice Guideline for Acute Kidney Injury. Kidney Int Suppl. 2012;2:1-138 (recommendation 5.8.3). Evidence: Palevsky PM et al. (ATN). N Engl J Med. 2008;359:7-20. Bellomo R et al. (RENAL). N Engl J Med. 2009;361:1627-1638. Predilution and FF: Macedo E, Mehta RL. Continuous dialysis therapies: Core Curriculum 2016. Am J Kidney Dis. 2016.
+KDIGO Clinical Practice Guideline for Acute Kidney Injury. Kidney Int Suppl. 2012;2:1-138 (recommendation 5.8.4). Evidence: Palevsky PM et al. (ATN). N Engl J Med. 2008;359:7-20. Bellomo R et al. (RENAL). N Engl J Med. 2009;361:1627-1638. Predilution and FF: Macedo E, Mehta RL. Continuous dialysis therapies: Core Curriculum 2016. Am J Kidney Dis. 2016.
 - DOI: https://doi.org/10.1038/kisup.2011.32
 
 **Limitations**

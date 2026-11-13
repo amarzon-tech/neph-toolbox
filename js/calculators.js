@@ -844,7 +844,7 @@
       };
     },
     equation: "Qeff (mL/h) = Qd + Qpre + Qpost + Qnet\nQp = Qb (mL/min) × 60 × (1 − Hct)\nPredilution DF = Qp / (Qp + Qpre)    (DF = 1 if Qpre = 0)\nCorrected dose (mL/kg/h) = (Qeff × DF) / weight_kg     (urea sieving coefficient ≈ 1)\nCVVHD: Quf for FF = Qnet only.  CVVH / CVVHDF: Quf = Qpre + Qpost + Qnet\nFF_post = Quf / Qp;    FF_pre = Quf / (Qp + Qpre)\nKDIGO AKI 2012: deliver 20–25 mL/kg/h (usually requires a higher prescription).",
-    citation: { text: "KDIGO Clinical Practice Guideline for Acute Kidney Injury. Kidney Int Suppl. 2012;2:1-138 (recommendation 5.8.3). Evidence: Palevsky PM et al. (ATN). N Engl J Med. 2008;359:7-20. Bellomo R et al. (RENAL). N Engl J Med. 2009;361:1627-1638. Predilution and FF: Macedo E, Mehta RL. Continuous dialysis therapies: Core Curriculum 2016. Am J Kidney Dis. 2016.", doi: "10.1038/kisup.2011.32" },
+    citation: { text: "KDIGO Clinical Practice Guideline for Acute Kidney Injury. Kidney Int Suppl. 2012;2:1-138 (recommendation 5.8.4). Evidence: Palevsky PM et al. (ATN). N Engl J Med. 2008;359:7-20. Bellomo R et al. (RENAL). N Engl J Med. 2009;361:1627-1638. Predilution and FF: Macedo E, Mehta RL. Continuous dialysis therapies: Core Curriculum 2016. Am J Kidney Dis. 2016.", doi: "10.1038/kisup.2011.32" },
     caveats: [
       "This is the prescribed (or instantaneous) dose. Delivered dose is lower because of downtime. KDIGO explicitly says a higher prescription is usually required to deliver 20–25 mL/kg/h.",
       "We do not apply a 0.93 plasma-water correction; some authors do. FF caution of 20–25% is practice-based (filter life), not a KDIGO numeric target.",
